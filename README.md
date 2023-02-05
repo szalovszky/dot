@@ -9,3 +9,6 @@ I personally use the `ttf-jetbrains-mono-nerd` package from the [AUR](https://ar
 - [fish](https://wiki.archlinux.org/title/Fish#Configuration)
 - [light](https://wiki.archlinux.org/title/Backlight#light)
 - [waybar](https://github.com/Alexays/Waybar/wiki)
+
+## Backlight
+It is configured to work on my system and may not work on yours. By default my user did not have write access to modify the brightness so I created a udev rule.
