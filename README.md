@@ -1,5 +1,5 @@
 # dotfiles
-![Screenshot](.screenshots/0.png)
+![Screenshot](.screenshots/0.jpg)
 
 ## Font
 This config is using JetBrainsMono [NerdFonts patched version](https://github.com/ryanoasis/nerd-fonts) and thus it is mostly configured to use that.
