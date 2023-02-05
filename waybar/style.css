@@ -1,0 +1,61 @@
+* {
+    border: none;
+    border-radius: 0;
+
+    font-family: JetBrainsMono Nerd Font, monospace;
+    font-weight: bold;
+    font-size: 13px;
+
+    min-height: 0;
+}
+
+window#waybar {
+    background: linear-gradient(black, rgba(0, 0, 0, 0.65), transparent);
+    color: white;
+}
+
+window#waybar.hidden {
+    opacity: 0.2;
+}
+
+#workspaces button.active {
+    border-bottom: 1px solid white;
+}
+
+#temperature.critical {
+    background-color: #eb4d4b;
+}
+
+#pulseaudio.muted {
+    background-color: #90b1b1;
+    color: #2a5c45;
+}
+
+#battery {
+    padding-right: 1rem;
+}
+
+#battery.charging {
+    background-color: #26A65B;
+}
+
+#battery.warning:not(.charging) {
+    background-color: #ffbe61;
+    color: black;
+}
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: black;
+    }
+}
+
+#battery.critical:not(.charging) {
+    background-color: #f53c3c;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
