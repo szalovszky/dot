@@ -9,6 +9,7 @@ Below are the valid configuration directory/file paths listed
 - [fish](https://wiki.archlinux.org/title/Fish#Configuration)
   - `~/.config/fish/config.fish`
 - [light](https://wiki.archlinux.org/title/Backlight#light)
+  - `~/.config/light/`
 - [waybar](https://github.com/Alexays/Waybar/wiki)
   - `~/.config/waybar/`
   - `~/waybar/`
