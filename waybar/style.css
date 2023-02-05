@@ -19,40 +19,46 @@ window#waybar.hidden {
 }
 
 #workspaces button.active {
-    border-bottom: 1px solid white;
+    border-bottom: 2px solid white;
+}
+
+#temperature {
+    transition: background linear .25s;
 }
 
 #temperature.critical {
-    background-color: #eb4d4b;
+    background: linear-gradient(rgba(255, 16, 77, 75), rgba(255, 77, 75, 0.65), rgba(255, 77, 75, 0));
+}
+
+#pulseaudio {
+    transition: background linear .25s;
 }
 
 #pulseaudio.muted {
-    background-color: #90b1b1;
-    color: #2a5c45;
+    background: linear-gradient(rgba(255, 16, 16, 1), rgba(255, 16, 16, 0.65), rgba(255, 16, 16, 0));
 }
 
 #battery {
-    padding-right: 1rem;
+    padding: 0 1rem;
+    transition: background linear .25s;
 }
 
 #battery.charging {
-    background-color: #26A65B;
+    background: linear-gradient(rgba(38, 166, 91, 1), rgba(38, 166, 91, 0.65), rgba(38, 166, 91, 0));
 }
 
 #battery.warning:not(.charging) {
-    background-color: #ffbe61;
-    color: black;
+    background: linear-gradient(rgba(255, 190, 97, 1), rgba(255, 190, 97, 0.65), rgba(255, 190, 97, 0));
 }
 
 @keyframes blink {
     to {
-        background-color: #ffffff;
-        color: black;
+        background: linear-gradient(black, rgba(0, 0, 0, 0.65), transparent);
     }
 }
 
 #battery.critical:not(.charging) {
-    background-color: #f53c3c;
+    background: linear-gradient(rgba(255, 16, 16, 1), rgba(255, 16, 16, 0.65), rgba(255, 16, 16, 0));
     animation-name: blink;
     animation-duration: 0.5s;
     animation-timing-function: linear;
