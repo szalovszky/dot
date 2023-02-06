@@ -11,6 +11,7 @@ It is **recommended** to first fully read this readme before starting anything.
     - Copy the required config files from this repo to their respective config path, which you can also [find here](#packages-used)
     - Copy the `wrappedhl` file to `/bin/` and give it execute perms
     - Copy the `wrappedhl.desktop` file to `/usr/share/wayland-sessions/`
+    - (Optional) Copy the `.wallpaper.jpg` file to `~/`
 1. Enjoy!
     > Next time you login, select `Hyprland wrapped` as the active session.
 
@@ -27,6 +28,7 @@ Below are the valid configuration directory/file paths listed
   - `~/.config/hypr/hyprland.conf`
 - [light](https://wiki.archlinux.org/title/Backlight#light)
   - `~/.config/light/`
+- [swaybg](https://man.archlinux.org/man/community/swaybg/swaybg.1.en)
 - [waybar](https://github.com/Alexays/Waybar/wiki)
   - `~/.config/waybar/`
   - `~/waybar/`
