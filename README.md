@@ -28,6 +28,7 @@ Below are the valid configuration directory/file paths listed
   - `~/.config/hypr/hyprland.conf`
 - [light](https://wiki.archlinux.org/title/Backlight#light)
   - `~/.config/light/`
+- [playerctl](https://github.com/altdesktop/playerctl#playerctl)
 - [swaybg](https://man.archlinux.org/man/community/swaybg/swaybg.1.en)
 - [waybar](https://github.com/Alexays/Waybar/wiki)
   - `~/.config/waybar/`
