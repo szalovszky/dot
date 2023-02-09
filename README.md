@@ -1,5 +1,5 @@
 # dotfiles
-![Screenshot](.screenshots/0.png)
+![Screenshot](.screenshots/0.jpg)
 
 ## Installation
 It is **recommended** to first fully read this readme before starting anything.
