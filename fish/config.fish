@@ -1,3 +1,5 @@
+alias start='bash /bin/wrappedhl'
+
 alias c='clear'
 alias ww='wget'
 alias del='rm -r'
