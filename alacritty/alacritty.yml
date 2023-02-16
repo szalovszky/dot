@@ -23,3 +23,8 @@ font:
     style: Bold Italic
 
   size: 11.0
+
+key_bindings:
+  - { key: U, mods: Super, action: ResetFontSize }
+  - { key: I, mods: Super, action: IncreaseFontSize }
+  - { key: K, mods: Super, action: DecreaseFontSize }
