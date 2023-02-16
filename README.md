@@ -2,10 +2,11 @@
 ![Screenshot](.screenshots/0.jpg)
 
 ## Installation
-It is **recommended** to first fully read this readme before starting anything.
+**NOTE**: This is NOT an Arch installation guide. It is **recommended** to fully read this readme first before starting anything.
 1. Prerequisites
     - Install [these packages](#packages-used) using your package manager
     - Install [this font](#font) either using your package manager or manually
+    - Install `requests` package globally from `python-pip`
     - Clone this repo
 1. Configuration
     - Copy the required config files from this repo to their respective config path, which you can also [find here](#packages-used)
@@ -19,21 +20,24 @@ If you run into problems, check out the [common problems](#common-problems) sect
 
 ## Packages used
 Below are the valid configuration directory/file paths listed
-- [alacritty](https://wiki.archlinux.org/title/Alacritty#Configuration)
+- [alacritty](https://wiki.archlinux.org/title/Alacritty#Configuration) - terminal emulator
   - `~/.config/alacritty/alacritty.yml`
   - `~/.alacritty.yml`
-- [fish](https://wiki.archlinux.org/title/Fish#Configuration)
+- [fish](https://wiki.archlinux.org/title/Fish#Configuration) - shell
   - `~/.config/fish/config.fish`
-- [hyprland](https://wiki.hyprland.org/Getting-Started/Master-Tutorial/)
+- [flameshot](https://wiki.archlinux.org/title/Flameshot) - screenshot tool
+- [hyprland](https://wiki.hyprland.org/Getting-Started/Master-Tutorial/) - window manager
   - `~/.config/hypr/hyprland.conf`
-- [light](https://wiki.archlinux.org/title/Backlight#light)
+- [light](https://wiki.archlinux.org/title/Backlight#light) - backlight controller
   - `~/.config/light/`
-- [playerctl](https://github.com/altdesktop/playerctl#playerctl)
-- [swaybg](https://man.archlinux.org/man/community/swaybg/swaybg.1.en)
-- [waybar](https://github.com/Alexays/Waybar/wiki)
+- [playerctl](https://github.com/altdesktop/playerctl#playerctl) - media playback controller
+- [python & python-pip](https://wiki.archlinux.org/title/Python) - run waybar weather script
+- [swaybg](https://man.archlinux.org/man/community/swaybg/swaybg.1.en) - background setter
+- [waybar](https://github.com/Alexays/Waybar/wiki) - wayland status bar
   - `~/.config/waybar/`
   - `~/waybar/`
   - `/etc/xdg/waybar/`
+- [xdg-desktop-portal & xdg-desktop-portal-gtk & xdg-desktop-portal-wlr](https://github.com/flatpak/xdg-desktop-portal) - required for file dialog boxes, screenshots, etc.
 
 ## Font
 This config is using JetBrainsMono [NerdFonts patched version](https://github.com/ryanoasis/nerd-fonts) and thus it is mostly configured to use that.
