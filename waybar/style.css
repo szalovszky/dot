@@ -10,7 +10,7 @@
 }
 
 window#waybar {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.45), transparent);
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .45), transparent);
     color: white;
 }
 
@@ -18,8 +18,16 @@ window#waybar.hidden {
     opacity: 0.2;
 }
 
+#workspaces button {
+    color: white;
+}
+
+#workspaces button:hover {
+    background: rgba(255, 255, 255, 0.35);
+}
+
 #workspaces button.active {
-    border-bottom: 2px solid white;
+    border-top: 2px solid white;
 }
 
 #temperature {
@@ -27,7 +35,7 @@ window#waybar.hidden {
 }
 
 #temperature.critical {
-    background: linear-gradient(rgba(255, 16, 77, 75), rgba(255, 77, 75, 0.65), rgba(255, 77, 75, 0));
+    background: linear-gradient(rgba(255, 16, 77, .8), rgba(255, 77, 75, .45), rgba(255, 77, 75, 0));
 }
 
 #pulseaudio {
@@ -35,7 +43,7 @@ window#waybar.hidden {
 }
 
 #pulseaudio.muted {
-    background: linear-gradient(rgba(255, 16, 16, 1), rgba(255, 16, 16, 0.65), rgba(255, 16, 16, 0));
+    background: linear-gradient(rgba(255, 16, 16, .8), rgba(255, 16, 16, .45), rgba(255, 16, 16, 0));
 }
 
 #battery {
@@ -44,21 +52,21 @@ window#waybar.hidden {
 }
 
 #battery.charging {
-    background: linear-gradient(rgba(38, 166, 91, 1), rgba(38, 166, 91, 0.65), rgba(38, 166, 91, 0));
+    background: linear-gradient(rgba(38, 166, 91, .8), rgba(38, 166, 91, .45), rgba(38, 166, 91, 0));
 }
 
 #battery.warning:not(.charging) {
-    background: linear-gradient(rgba(255, 190, 97, 1), rgba(255, 190, 97, 0.65), rgba(255, 190, 97, 0));
+    background: linear-gradient(rgba(255, 190, 97, .8), rgba(255, 190, 97, .45), rgba(255, 190, 97, 0));
 }
 
 @keyframes blink {
     to {
-        background: linear-gradient(black, rgba(0, 0, 0, 0.65), transparent);
+        background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .45), transparent);
     }
 }
 
 #battery.critical:not(.charging) {
-    background: linear-gradient(rgba(255, 16, 16, 1), rgba(255, 16, 16, 0.65), rgba(255, 16, 16, 0));
+    background: linear-gradient(rgba(255, 16, 16, .8), rgba(255, 16, 16, .45), rgba(255, 16, 16, 0));
     animation-name: blink;
     animation-duration: 0.5s;
     animation-timing-function: linear;
