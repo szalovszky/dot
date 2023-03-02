@@ -26,6 +26,7 @@ Below are the valid configuration directory/file paths listed
 - [fish](https://wiki.archlinux.org/title/Fish#Configuration) - shell
   - `~/.config/fish/config.fish`
 - [flameshot](https://wiki.archlinux.org/title/Flameshot) - screenshot tool
+- [fortune-mod](https://archlinux.org/packages/community/x86_64/fortune-mod/) - fish greeting
 - [hyprland](https://wiki.hyprland.org/Getting-Started/Master-Tutorial/) - window manager
   - `~/.config/hypr/hyprland.conf`
 - [light](https://wiki.archlinux.org/title/Backlight#light) - backlight controller
