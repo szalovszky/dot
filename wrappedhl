@@ -1,4 +1,5 @@
 #!/bin/sh
+
 cd ~
 
 # Wayland
@@ -14,6 +15,8 @@ export QT_QPA_PLATFORM='wayland;xcb'
 export QT_WAYLAND_DISABLE_WINDOWDECORATION=1
 
 # GTK themes
+gsettings set org.gnome.desktop.interface font-name 'JetBrainsMono Nerd Font'
+gsettings set org.gnome.desktop.interface gtk-theme 'Sweet-Dark'
 export XCURSOR_SIZE=24
 
 exec Hyprland
