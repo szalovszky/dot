@@ -1,5 +1,5 @@
 # dotfiles
-![Screenshot](.screenshots/0.jpg)
+![Screenshot](https://boo.s3.nl-ams.scw.cloud/dot)
 
 ## Installation
 **NOTE**: This is NOT an Arch installation guide. It is **recommended** to fully read this readme first before starting anything.
